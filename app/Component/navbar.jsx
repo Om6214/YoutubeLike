@@ -24,17 +24,17 @@ const Navbar = async () => {
             {isUserAuthenticated ? (
               <>
                 <li className={style.li}>
-                  <Link className={style.Link} href="/">
+                  <Link className={style.Link} href="/dashboard">
                     Home
                   </Link>
                 </li>
                 <li className={style.li}>
-                  <Link className={style.Link} href="/about">
+                  <Link className={style.Link} href="/dashboard/about">
                     About
                   </Link>
                 </li>
                 <li className={style.li}>
-                  <Link className={style.Link} href="/watch">
+                  <Link className={style.Link} href="/dashboard/watch">
                     Watch
                   </Link>
                 </li>

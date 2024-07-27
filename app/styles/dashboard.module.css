@@ -1,0 +1,48 @@
+.hero{
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+}
+.mainhero{
+    width: 78.5%;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    opacity: 0.8;
+}
+.h3text{
+    opacity: 1;
+    color: white;
+    padding-top: 100px;
+    font-weight: 200;
+}
+.span{
+    color: rgb(214, 214, 74);
+}
+.explorebutton{
+    width: 12%;
+    padding: 7px;
+    margin: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.explorebutton a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .hero{
+        width: 100%;
+        margin-left: 0;
+    }
+    .mainhero{
+        width: 75%;
+    }
+    .h3text{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .explorebutton{
+        width: 23%;
+    }
+  }
