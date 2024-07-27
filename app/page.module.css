@@ -1,0 +1,11 @@
+.background {
+  background-image: url("https://images.unsplash.com/photo-1608411404720-c8f0417bcdba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw1MHx8YWJzdHJhY3R8ZW58MXx8fHwxNjk1MTEzOTMxfDA&ixlib=rb-4.0.3&q=80&w=1080");
+  visibility: visible;
+  background-position: 0px -1008px;
+  background-size: 1440px 2160px;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+  border-radius: 8px;
+  border: 0px;
+  margin: 0;
+}

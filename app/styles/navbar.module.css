@@ -1,0 +1,121 @@
+.navContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  background-color: rgb(20, 16, 16);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.h1{
+  color: rgb(179, 179, 50);
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.li {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.Link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: azure;
+  padding: 5px;
+}
+.Link:hover{
+  color: rgb(211, 178, 138);
+}
+
+.navlogoImg {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.login {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 1px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: background-color 300ms;
+}
+
+.login:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.loginlink {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: azure;
+}
+
+.loginlink:hover {
+  color: black;
+}
+
+.register {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: rgba(47, 192, 168, 0.534);
+  border-radius: 5px;
+}
+
+/* for mobile view */
+@media only screen and (max-width: 768px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ul {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .ul.active {
+    display: flex;
+  }
+
+  .li {
+    margin: 10px 0;
+  }
+
+  .navlogoImg {
+    margin-left: 0;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+}
+.profileImg{
+  color: white;
+  margin-top: 17px;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}
