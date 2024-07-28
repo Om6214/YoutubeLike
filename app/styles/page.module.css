@@ -11,6 +11,7 @@
 
 .authenticated{
   background-image: url("https://www.rthgroup.com/wp-content/uploads/photo-booth-background-design-options-entertainment-004-1500x1000.jpg");
+  background-attachment: fixed;
 }
 .notauthenticated{
   background-image: url("https://images.unsplash.com/photo-1608411404720-c8f0417bcdba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHw1MHx8YWJzdHJhY3R8ZW58MXx8fHwxNjk1MTEzOTMxfDA&ixlib=rb-4.0.3&q=80&w=1080");

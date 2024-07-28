@@ -1,48 +1,126 @@
-.hero{
-    width: 50%;
+.hero {
+    width: 100%;
     height: auto;
     margin-left: 20px;
 }
-.mainhero{
+
+.mainhero {
+    display: flex;
     width: 78.5%;
     margin: auto;
     background-color: rgb(27, 27, 27);
     padding: 20px;
-    opacity: 0.8;
 }
-.h3text{
-    opacity: 1;
+
+@media only screen and (max-width:768px) {
+    .mainhero{
+        width: 100%;
+    }
+}
+
+.h3text {
     color: white;
     padding-top: 100px;
     font-weight: 200;
+    opacity: 1;
 }
-.span{
+
+.span {
     color: rgb(214, 214, 74);
 }
-.explorebutton{
-    width: 12%;
+
+.explorebutton {
+    width: 15%;
     padding: 7px;
     margin: 10px;
     background-color: aquamarine;
     border-radius: 10px;
 }
-.explorebutton a{
+
+.explorebutton a {
     text-decoration: none;
     color: black;
 }
+
+.Image {
+    width: 100%;
+    height: 75%;
+    opacity: 1;
+}
+
 @media only screen and (max-width: 600px) {
-    .hero{
+    .hero {
         width: 100%;
         margin-left: 0;
     }
-    .mainhero{
-        width: 75%;
+    .mainhero {
+        width: 100%;
     }
-    .h3text{
+    .h3text {
         padding-top: 20px;
         font-size: 25px;
     }
-    .explorebutton{
+    .explorebutton {
         width: 23%;
     }
-  }
+    .Image{
+        display: none;
+    }
+}
+
+.text-full-opacity {
+    opacity: 1;
+}
+
+.image-full-opacity {
+    opacity: 1;
+}
+@media only screen and (max-width: 900px){
+    .Image{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .hero{
+        width: 86%;
+    }
+    .h3text{
+        padding-top: 20px;
+    }
+    
+}
+.carddiv{
+    width: 81.5%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(27, 27, 27);
+    margin: auto;
+    height: auto;
+}
+.title{
+    width: 81.5%;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family:"Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 17px;
+}
+.collection{
+    width: 81.5%;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 500px){
+    .carddiv{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+    .collection{
+        width: 100%;
+    }
+}
