@@ -42,7 +42,7 @@ const Dashboard = () => {
       <div style={{paddingTop:"30px"}} className={style.title}>
       <p style={{marginTop:"0",marginBottom:"0",width:"91%",margin:"auto"}}>Funny TV shows</p>
       </div>
-      <div className={style.carddiv}>
+      <div style={{paddingBottom:"30px"}} className={style.carddiv}>
         <Card/>
         <Card/>
         <Card/>
