@@ -1,34 +1,53 @@
-.Footer{
-    width: 81.5%;
-    margin: auto;
-    height: auto;
-    background-color: rgb(20, 16, 16);
+.Footer {
+  width: 81.5%;
+  margin: auto;
+  height: auto;
+  background-color: rgb(20, 16, 16);
 }
-.icon{
-    display: flex;
-    justify-content: space-evenly;
-    width: 20%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-.Links{
-    display: flex;
-    justify-content: space-evenly;
-    width: 40%;
-    margin: auto;
+.Links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: auto;
 }
-.Links a{
-    text-decoration: none;
-    color: white;
-    font-family:"Roboto Mono", monospace;
+.Links a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Mono", monospace;
 }
-.Copyright{
-    color: white;
-    padding-top: 30px;
-    text-align: center;
-    font-family:"Roboto Mono", monospace;
+.Copyright {
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
 .Copyright span {
-    color: aqua;
+  color: aqua;
+}
+@media (max-width: 900px) {
+  .Footer {
+    width: 100%;
+  }
+  .icon{
+    width: 80%;
+  }
+  .Links{
+    width: 100%;
+  }
+  .Links a{
+    font-size: 12px;
+  }
+  .Copyright{
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }

@@ -7,18 +7,31 @@ const Footer = () => {
   return (
     <div className={style.Footer}>
       <div className={style.icon}>
-        <i
-          class="fa-brands fa-square-instagram fa-2xl"
-          style={{ color: "#e01b24" }}
-        ></i>
-        <i
-          class="fa-brands fa-square-twitter fa-2xl"
-          style={{ color: "#e01b24" }}
-        ></i>
-        <i
-          class="fa-brands fa-linkedin fa-2xl"
-          style={{ color: "#e01b24" }}
-        ></i>
+        <a href="https://www.instagram.com/john_doe_2534/" target="_blank">
+          <i
+            class="fa-brands fa-square-instagram fa-2xl"
+            style={{ color: "#e01b24" }}
+          ></i>
+        </a>
+
+        <a href="https://github.com/Om6214" target="_blank">
+          <i
+            class="fa-brands fa-square-twitter fa-2xl"
+            style={{ color: "#e01b24" }}
+          ></i>
+        </a>
+        <a href="https://www.linkedin.com/in/omnathganapure/" target="_blank">
+          <i
+            class="fa-brands fa-linkedin fa-2xl"
+            style={{ color: "#e01b24" }}
+          ></i>
+        </a>
+        <a href="https://github.com/Om6214" target="_blank">
+          <i
+            class="fa-brands fa-github fa-2xl"
+            style={{ color: "#e01b24" }}
+          ></i>
+        </a>
       </div>
       <div className={style.Links}>
         <Link href="/dashboard">Home</Link>
