@@ -1,0 +1,31 @@
+.maindiv{
+    width: 81.5%;
+    background-color: rgb(27, 27, 27);
+    margin: auto;
+}
+.genrediv{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headtext{
+    padding-left: 10px;
+    color: rgb(165, 165, 50);
+}
+.genrebox{
+    border: 1px solid rgb(8, 96, 168);
+    height: 50px;
+}
+.label{
+    color: white;
+}
+.title{
+    width:81.5%;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 0;
+    
+}

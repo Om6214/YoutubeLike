@@ -1,9 +1,9 @@
 import { Inter } from "next/font/google";
 import style from "./styles/page.module.css";
 import Navbar from "./Component/navbar";
-import Footer from "./Component/Footer";
 import { getAuthSession } from "../utils/auth";
 import "./globals.css";
+import Footer from "./Component/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,9 @@ export default async function RootLayout({ children }) {
       >
         <Navbar />
         {children}
-        <Footer />
+        {
+          isUserAuthenticated?(<Footer/>):null
+        }
       </body>
     </html>
   );

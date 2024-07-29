@@ -29,13 +29,18 @@ const Navbar = async () => {
                   </Link>
                 </li>
                 <li className={style.li}>
-                  <Link className={style.Link} href="/dashboard/about">
-                    About
+                  <Link className={style.Link} href="/dashboard/mylist">
+                    My List
                   </Link>
                 </li>
                 <li className={style.li}>
-                  <Link className={style.Link} href="/dashboard/watch">
-                    Watch
+                  <Link className={style.Link} href="/dashboard/tvseries">
+                    TV series
+                  </Link>
+                </li>
+                <li className={style.li}>
+                  <Link className={style.Link} href="/dashboard/movies">
+                    Movies
                   </Link>
                 </li>
                 <li className={style.login}>

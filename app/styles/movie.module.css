@@ -1,0 +1,26 @@
+.maindiv {
+  width: 81.5%;
+  margin: auto;
+  height: auto;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg?w=826&t=st=1722276262~exp=1722276862~hmac=04883429548e91cccdbc12825b28addb22e8ca827916df6752f3cea10ae63700");
+  
+}
+.movieimg {
+  width: 88%;
+  height: 300px;
+  padding: 50px;
+}
+.detail{
+    padding-top: 50px;
+}
+.detail p{
+    color: white;
+    font-family: "Roboto Mono", monospace;;
+}
+.Button{
+    width: 54%;
+    display: flex;
+    justify-content: space-around;
+}
