@@ -24,3 +24,16 @@
     display: flex;
     justify-content: space-around;
 }
+.carddiv {
+  width: 81.5%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(27, 27, 27);
+}
+
+.carddiv > * {
+  flex: 1 1 22%; 
+  margin: 10px; 
+}

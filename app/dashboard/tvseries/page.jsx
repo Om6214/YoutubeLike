@@ -17,9 +17,18 @@ const page = () => {
         </div>
       </div>
       <div className={style.title}>
-        <p style={{marginLeft:"50px",marginTop:"0",marginBottom:"0"}}>Newest</p>
+        <p style={{marginLeft:"50px",marginTop:"0",marginBottom:"0",color:"rgb(179, 179, 50)"}}>Newest</p>
       </div>
       <div className={cardstyle.carddiv}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      <div className={style.title}>
+        <p style={{marginLeft:"50px",marginTop:"0",marginBottom:"0",color:"rgb(179, 179, 50)"}}>Binge watch time !</p>
+      </div>
+      <div style={{paddingBottom:"30px"}} className={cardstyle.carddiv}>
         <Card />
         <Card />
         <Card />

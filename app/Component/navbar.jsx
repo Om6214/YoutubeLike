@@ -25,22 +25,22 @@ const Navbar = async () => {
               <>
                 <li className={style.li}>
                   <Link className={style.Link} href="/dashboard">
-                    Home
+                  <i class="fa-solid fa-house"></i> Home
                   </Link>
                 </li>
                 <li className={style.li}>
                   <Link className={style.Link} href="/dashboard/mylist">
-                    My List
+                  <i class="fa-solid fa-list"></i> My List
                   </Link>
                 </li>
                 <li className={style.li}>
                   <Link className={style.Link} href="/dashboard/tvseries">
-                    TV series
+                  <i class="fa-solid fa-tv"></i> TV series
                   </Link>
                 </li>
                 <li className={style.li}>
                   <Link className={style.Link} href="/dashboard/movies">
-                    Movies
+                  <i class="fa-solid fa-film"></i> Movies
                   </Link>
                 </li>
                 <li className={style.login}>
